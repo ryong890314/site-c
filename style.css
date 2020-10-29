@@ -232,7 +232,7 @@ img, fieldset {
 .main_cover .paging_box {
     position: absolute;
     box-sizing: border-box;
-    right: 50px;
+    right: 20px;
     bottom: -200px;
     padding: 30px;
     width: 160px;
@@ -282,7 +282,7 @@ img, fieldset {
 	background-size: cover;
 	background-position: center;
 }
-.slick-prev:before, .slick-next:before {
+/* .slick-prev:before, .slick-next:before {
 	font-size: 30px;
 }
 .slick-prev {
@@ -292,7 +292,7 @@ img, fieldset {
 .slick-next {
 	right: 50px;
 	z-index: 1;
-}
+} */
 .slick-dots {
 	bottom: 50px;
 }
@@ -540,7 +540,7 @@ img, fieldset {
 	border: 2px solid #fff;
 	box-sizing: border-box;
 	z-index: 100;
-	background-color: #003456;
+	background-color: #005abc;
 	
 }
 .top_button a {
