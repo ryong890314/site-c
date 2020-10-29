@@ -333,32 +333,58 @@ img, fieldset {
 	color: #005abc;
 	margin-bottom: 10px;
 }
-.content_box .cb1_box {
+/* .content_box .cb1_box {
 	display: flex;
-}
+} */
 .content_box .cb1_img {
-	width: 500px;
+	position: relative;
+	float: left;
+	width: 45%;
     height: 500px;
 	background: url(images/cb1_img.jpg) 50% 50% no-repeat;
 	background-size: cover;
-    position: relative;
-    margin-top: -150px;
 }
-.content_box .cb1_img > div {
+.content_box .cb1_img .square1 {
     position: absolute;
-    width: 250px;
-    height: 40px;
+    width: 360px;
+    height: 250px;
     line-height: 40px;
     text-align: right;
-    right: -200px;
-    top: 150px;
-    background: #003456;
-	padding-right: 30px;
+    left: -360px;
+    bottom: 0;
+    background: #005abc;
+	color: #fff;
+	font-size: 1.4em;
+}
+.content_box .cb1_img .square2 {
+    position: absolute;
+    width: 700px;
+    height: 80px;
+    line-height: 40px;
+    text-align: right;
+    left: -360px;
+    bottom: -80px;
+    background: #005abc;
+	color: #fff;
+	font-size: 1.4em;
+}
+.content_box .cb1_img .square3 {
+    position: absolute;
+    width: 40px;
+    height: 250px;
+    line-height: 40px;
+    text-align: right;
+    right: -20px;
+    top: 125px;
+    background: #005abc;
 	color: #fff;
 	font-size: 1.4em;
 }
 .content_box .cb1_text {
-	padding: 80px 0 0 80px;
+	float: right;
+	box-sizing: border-box;
+	width: 55%;
+	padding: 100px 0 0 60px;
 }
 .content_box .cb1_text h1 {
 	font-size: 2.5em;
@@ -367,6 +393,7 @@ img, fieldset {
 .content_box .cb1_text p {
 	margin-top: 30px;
 	font-size: 1.2em;
+	line-height: 1.5;
 }
 .content_box .cb2_list {
 	width: 100%;
@@ -418,6 +445,23 @@ img, fieldset {
     align-items: center;
 	/* background-color: #000;
 	opacity: 0.2; */
+}
+.content_box .cb2_list .image_cover_dark i {
+	font-size: 5em;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.content_box .cb2_list .image_cover_dark h1 {
+	font-size: 1.5em;
+	font-weight: 800;
+}
+.content_box .cb2_list .image_cover_dark p {
+	font-size: 1.2em;
+}
+.content_box .cb2_list .image_cover_dark .more {
+	font-size: 1em;
+	text-decoration: underline;
+	margin-top: 20px;
 }
 .content_box .cb2_list .text {
 	width: 100%;
